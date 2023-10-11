@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGVf7ykRVPBNqmHcjH7QX18bkmU",
+    "object": "text_completion",
+    "created": 1687362151,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 219000.0\ntable_query_1 = 83000.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1429,
+        "completion_tokens": 57,
+        "total_tokens": 1486
+    },
+    "time_taken": 1.2711541652679443,
+    "question": "as of december 2007 what was the ratio of the square footage in alpharetta georgia to charlotte north carolina",
+    "gold_answer": 2.63855,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 219000.0\ntable_query_1 = 83000.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+    "prediction": 2.63855421686747,
+    "correct": true,
+    "few_shot": [
+        5224,
+        4600,
+        801,
+        2341
+    ]
+}

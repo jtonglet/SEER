@@ -1,0 +1,34 @@
+{
+    "id": "cmpl-7UC4xQirP2J5mRvxLVhiVcKf0ONhv",
+    "object": "text_completion",
+    "created": 1687430627,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 4.0\ntable_query_1 = 3.75\n#Write a reasoning program \nans = (table_query_0-table_query_1)/table_query_1\nscale = \"percent\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1258,
+        "completion_tokens": 68,
+        "total_tokens": 1326
+    },
+    "time_taken": 1.3243169784545898,
+    "question": "What is the year on year percentage change in domestic discount rate between 2018 and 2019?",
+    "gold_answer": 6.67,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 4.0\ntable_query_1 = 3.75\n#Write a reasoning program \nans = (table_query_0-table_query_1)/table_query_1\nscale = \"percent\"",
+    "prediction": 0.06666666666666667,
+    "correct": [
+        0.0,
+        0.0
+    ],
+    "few_shot": [
+        2683,
+        2717,
+        2292,
+        5567
+    ]
+}

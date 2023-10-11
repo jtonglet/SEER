@@ -1,0 +1,38 @@
+{
+    "id": "cmpl-7UC4Z6ax7LxBJ09vaU6juaLXMhEhW",
+    "object": "text_completion",
+    "created": 1687430603,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"['Fixed Price', 'Other']\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1091,
+        "completion_tokens": 19,
+        "total_tokens": 1110
+    },
+    "time_taken": 0.6723120212554932,
+    "question": "What are the contract types?",
+    "gold_answer": [
+        "fixed-price type",
+        "cost-plus type",
+        "tie-and-aterial type"
+    ],
+    "code": "#Write a reasoning program \nans = \"['Fixed Price', 'Other']\"",
+    "prediction": "['Fixed Price', 'Other']",
+    "correct": [
+        0.0,
+        0.0
+    ],
+    "few_shot": [
+        5562,
+        9059,
+        674,
+        9108
+    ]
+}

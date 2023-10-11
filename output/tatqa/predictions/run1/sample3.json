@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC4aWIMb2y2ArllA8gIzxTHlu0Ok",
+    "object": "text_completion",
+    "created": 1687430604,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \n#locate and analyze Total sales in row 4\nans = \"2019.0\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1178,
+        "completion_tokens": 26,
+        "total_tokens": 1204
+    },
+    "time_taken": 0.7258074283599854,
+    "question": "In which year is the amount of total sales the largest?",
+    "gold_answer": [
+        "2019"
+    ],
+    "code": "#Write a reasoning program \n#locate and analyze Total sales in row 4\nans = \"2019.0\"",
+    "prediction": "2019.0",
+    "correct": [
+        1.0,
+        1.0
+    ],
+    "few_shot": [
+        4259,
+        6400,
+        7298,
+        8842
+    ]
+}

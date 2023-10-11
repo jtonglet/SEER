@@ -1,0 +1,38 @@
+{
+    "id": "cmpl-7UC4jofFpEQdNbVMiEMBMFO7bj4In",
+    "object": "text_completion",
+    "created": 1687430613,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"['Transportation Solutions', 'Industrial Solutions', 'Communications Solutions']\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1682,
+        "completion_tokens": 27,
+        "total_tokens": 1709
+    },
+    "time_taken": 1.0441312789916992,
+    "question": "What are the types of Solutions segments in the table?",
+    "gold_answer": [
+        "Transportation Solutions",
+        "Industrial Solutions",
+        "Counications Solutions"
+    ],
+    "code": "#Write a reasoning program \nans = \"['Transportation Solutions', 'Industrial Solutions', 'Communications Solutions']\"",
+    "prediction": "['Transportation Solutions', 'Industrial Solutions', 'Communications Solutions']",
+    "correct": [
+        1.0,
+        1.0
+    ],
+    "few_shot": [
+        3922,
+        6547,
+        176,
+        8485
+    ]
+}

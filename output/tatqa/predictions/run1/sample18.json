@@ -1,0 +1,38 @@
+{
+    "id": "cmpl-7UC52ZU3u27uba5PxEQZ5SWKBAmZ8",
+    "object": "text_completion",
+    "created": 1687430632,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"['Income statement expense']\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1985,
+        "completion_tokens": 18,
+        "total_tokens": 2003
+    },
+    "time_taken": 0.7795894145965576,
+    "question": "What financial items are listed in the table?",
+    "gold_answer": [
+        "Defined contribution schees",
+        "Defined benefit schees",
+        ""
+    ],
+    "code": "#Write a reasoning program \nans = \"['Income statement expense']\"",
+    "prediction": "['Income statement expense']",
+    "correct": [
+        0.0,
+        0.0
+    ],
+    "few_shot": [
+        3506,
+        10003,
+        6306,
+        7223
+    ]
+}

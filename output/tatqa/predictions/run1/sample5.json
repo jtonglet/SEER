@@ -1,0 +1,34 @@
+{
+    "id": "cmpl-7UC4eDEIj2Ekb0rfRBomD8DKVOTYT",
+    "object": "text_completion",
+    "created": 1687430608,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 44.1\ntable_query_1 = 56.7\n#Write a reasoning program \nans = (table_query_0-table_query_1)/table_query_1\nscale = \"percent\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1748,
+        "completion_tokens": 68,
+        "total_tokens": 1816
+    },
+    "time_taken": 1.4507572650909424,
+    "question": "What is the percentage change in Other in 2019 from 2018?",
+    "gold_answer": -22.22,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 44.1\ntable_query_1 = 56.7\n#Write a reasoning program \nans = (table_query_0-table_query_1)/table_query_1\nscale = \"percent\"",
+    "prediction": -0.22222222222222224,
+    "correct": [
+        0.0,
+        0.0
+    ],
+    "few_shot": [
+        8398,
+        5193,
+        1061,
+        1440
+    ]
+}

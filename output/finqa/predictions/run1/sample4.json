@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHW7MyldW6hwQXVe1Ud4fiFUaMs",
+    "object": "text_completion",
+    "created": 1688569230,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 318.46\ntable_query_1 = 206.49\n#Define variables based on available values in the text\ntext_variable_0 = 100.0\ntext_variable_1 = 100.0\ntext_variable_2 = 100.0\ntext_variable_3 = 100.0\n#Write a reasoning program \nstep_0 = table_query_0 - text_variable_0\nstep_1 = step_0 / text_variable_1\nstep_2 = table_query_1 - text_variable_2\nstep_3 = step_2 / text_variable_3\nans = step_1 - step_3",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1739,
+        "completion_tokens": 163,
+        "total_tokens": 1902
+    },
+    "time_taken": 2.6388022899627686,
+    "question": "what was the difference in percentage cumulative total shareholder return on masco common stock versus the s&p 500 index for the five year period ended 2017?",
+    "gold_answer": 1.1197,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 318.46\ntable_query_1 = 206.49\n#Define variables based on available values in the text\ntext_variable_0 = 100.0\ntext_variable_1 = 100.0\ntext_variable_2 = 100.0\ntext_variable_3 = 100.0\n#Write a reasoning program \nstep_0 = table_query_0 - text_variable_0\nstep_1 = step_0 / text_variable_1\nstep_2 = table_query_1 - text_variable_2\nstep_3 = step_2 / text_variable_3\nans = step_1 - step_3",
+    "prediction": 1.1196999999999995,
+    "correct": true,
+    "few_shot": [
+        4798,
+        5025,
+        337,
+        830
+    ]
+}

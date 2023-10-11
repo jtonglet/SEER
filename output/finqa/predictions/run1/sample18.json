@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFpXj6zwyVmFlUIpjC2PY7Tql8m",
+    "object": "text_completion",
+    "created": 1687362109,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 15.3\ntext_variable_1 = 139549.0\n#Write a reasoning program \nans = text_variable_0 / text_variable_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1705,
+        "completion_tokens": 55,
+        "total_tokens": 1760
+    },
+    "time_taken": 1.2213857173919678,
+    "question": "the combined amount of accrued interest and penalties related to tax positions taken on our tax returns and included in non-current income taxes payable was what percent of the total ending balance as of november 28 2008?",
+    "gold_answer": 0.10964,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 15.3\ntext_variable_1 = 139549.0\n#Write a reasoning program \nans = text_variable_0 / text_variable_1",
+    "prediction": 0.00010963890819712074,
+    "correct": false,
+    "few_shot": [
+        2649,
+        1718,
+        1642,
+        2296
+    ]
+}

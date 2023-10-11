@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHb2V41q7thon56gOIPJ34MAiiF",
+    "object": "text_completion",
+    "created": 1688569235,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 463.0\ntable_query_1 = 4612.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1428,
+        "completion_tokens": 57,
+        "total_tokens": 1485
+    },
+    "time_taken": 1.1607921123504639,
+    "question": "what percent of total recourse debt is current?",
+    "gold_answer": 0.10039,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 463.0\ntable_query_1 = 4612.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+    "prediction": 0.10039028620988726,
+    "correct": true,
+    "few_shot": [
+        500,
+        5432,
+        89,
+        4892
+    ]
+}

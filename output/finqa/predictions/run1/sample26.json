@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGWdbT11wnaIVwNvnWKE6l58c8B",
+    "object": "text_completion",
+    "created": 1687362152,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 18.1\n#Write a reasoning program \nans = 6.3 / table_query_0",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1451,
+        "completion_tokens": 43,
+        "total_tokens": 1494
+    },
+    "time_taken": 1.045830249786377,
+    "question": "in 2010 what was the percent of the income tax benefit to the stock based compensation cost",
+    "gold_answer": 0.34807,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 18.1\n#Write a reasoning program \nans = 6.3 / table_query_0",
+    "prediction": 0.3480662983425414,
+    "correct": true,
+    "few_shot": [
+        5130,
+        298,
+        1724,
+        2391
+    ]
+}

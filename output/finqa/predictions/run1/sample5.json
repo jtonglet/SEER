@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHZacaIM69yRLtYejOq8sPIddJV",
+    "object": "text_completion",
+    "created": 1688569233,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 100690000.0\ntext_variable_1 = 92710000.0\ntext_variable_2 = 92710000.0\n#Write a reasoning program \nstep_0 = text_variable_0 - text_variable_1\nans = step_0 / text_variable_2",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1402,
+        "completion_tokens": 83,
+        "total_tokens": 1485
+    },
+    "time_taken": 1.4539365768432617,
+    "question": "what was the percentage change in total rental expense under operating leases from july 2 , 2005 to july 1 , 2006?",
+    "gold_answer": 0.06757,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 100690000.0\ntext_variable_1 = 92710000.0\ntext_variable_2 = 92710000.0\n#Write a reasoning program \nstep_0 = text_variable_0 - text_variable_1\nans = step_0 / text_variable_2",
+    "prediction": 0.086074857081221,
+    "correct": false,
+    "few_shot": [
+        3922,
+        1010,
+        2020,
+        873
+    ]
+}

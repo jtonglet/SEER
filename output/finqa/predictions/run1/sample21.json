@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGNXoFhB3FFctmQuKYqe08tGnS2",
+    "object": "text_completion",
+    "created": 1687362143,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 311.81\ntable_query_1 = 198.18\n#Write a reasoning program \nstep_0 = table_query_0 - 100\nstep_1 = step_0 / 100\nstep_2 = table_query_1 - 100\nstep_3 = step_2 / 100\nans = step_1 - step_3",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1506,
+        "completion_tokens": 95,
+        "total_tokens": 1601
+    },
+    "time_taken": 1.7629649639129639,
+    "question": "what was the difference in percentage cumulative 5-year total shareholder return on common stock fidelity national information services , inc . compared to the s&p 500 for the period ending 12/16?",
+    "gold_answer": 1.1363,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 311.81\ntable_query_1 = 198.18\n#Write a reasoning program \nstep_0 = table_query_0 - 100\nstep_1 = step_0 / 100\nstep_2 = table_query_1 - 100\nstep_3 = step_2 / 100\nans = step_1 - step_3",
+    "prediction": 1.1362999999999999,
+    "correct": true,
+    "few_shot": [
+        2211,
+        1107,
+        888,
+        261
+    ]
+}

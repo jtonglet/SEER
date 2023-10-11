@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFmJHcgXqeJnsTjojqqen7iMRfL",
+    "object": "text_completion",
+    "created": 1687362106,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 455.0\n#Write a reasoning program \nans = text_variable_0 / 7",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1284,
+        "completion_tokens": 39,
+        "total_tokens": 1323
+    },
+    "time_taken": 0.882925271987915,
+    "question": "assuming each continent has the same number of destinations , approximately how many destinations does each continent have?",
+    "gold_answer": 65.0,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 455.0\n#Write a reasoning program \nans = text_variable_0 / 7",
+    "prediction": 65.0,
+    "correct": true,
+    "few_shot": [
+        3886,
+        5162,
+        840,
+        251
+    ]
+}

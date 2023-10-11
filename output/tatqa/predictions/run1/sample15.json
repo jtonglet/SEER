@@ -1,0 +1,34 @@
+{
+    "id": "cmpl-7UC4vpC60aLmOeWjSoiAwNhVo2ecq",
+    "object": "text_completion",
+    "created": 1687430625,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 4.0\ntable_query_1 = 1.9\n#Write a reasoning program \nans = table_query_0 - table_query_1\nscale = \"percent\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1615,
+        "completion_tokens": 61,
+        "total_tokens": 1676
+    },
+    "time_taken": 1.390697956085205,
+    "question": "What is the difference between the domestic and international discount rates as at September 30, 2019?",
+    "gold_answer": 2.1,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 4.0\ntable_query_1 = 1.9\n#Write a reasoning program \nans = table_query_0 - table_query_1\nscale = \"percent\"",
+    "prediction": 2.1,
+    "correct": [
+        1,
+        1
+    ],
+    "few_shot": [
+        939,
+        5567,
+        2681,
+        38
+    ]
+}

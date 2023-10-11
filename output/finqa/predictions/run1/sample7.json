@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHcobRVBlvt7MxxZJxIMHrAnmwN",
+    "object": "text_completion",
+    "created": 1688569236,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 301.0\ntable_query_1 = 2575.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1107,
+        "completion_tokens": 56,
+        "total_tokens": 1163
+    },
+    "time_taken": 1.099412441253662,
+    "question": "what percentage of future minimum rental payments are due in 2018?",
+    "gold_answer": 0.11689,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 301.0\ntable_query_1 = 2575.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+    "prediction": 0.11689320388349514,
+    "correct": true,
+    "few_shot": [
+        2178,
+        4482,
+        1382,
+        611
+    ]
+}

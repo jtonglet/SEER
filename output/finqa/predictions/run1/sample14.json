@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFiLygx3CWEgqSA0na7mNWv0G7z",
+    "object": "text_completion",
+    "created": 1687362102,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 6348.0\ntext_variable_1 = 6241.0\ntext_variable_2 = 6241.0\n#Write a reasoning program \nstep_0 = text_variable_0 - text_variable_1\nans = step_0 / text_variable_2",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1699,
+        "completion_tokens": 80,
+        "total_tokens": 1779
+    },
+    "time_taken": 1.4464209079742432,
+    "question": "what was the percentage change in deferred tax assets and regulatory assets from 2013 to 2014",
+    "gold_answer": 0.01714,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 6348.0\ntext_variable_1 = 6241.0\ntext_variable_2 = 6241.0\n#Write a reasoning program \nstep_0 = text_variable_0 - text_variable_1\nans = step_0 / text_variable_2",
+    "prediction": 0.017144688351225765,
+    "correct": true,
+    "few_shot": [
+        4455,
+        911,
+        6235,
+        2594
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHRVSlpEiSmzMxrThZqvtvrv1mz",
+    "object": "text_completion",
+    "created": 1688569225,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 8.1\ntable_query_1 = 56.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1440,
+        "completion_tokens": 55,
+        "total_tokens": 1495
+    },
+    "time_taken": 3.9000637531280518,
+    "question": "what percentage of total facilities as measured in square feet are leased?",
+    "gold_answer": 0.14464,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 8.1\ntable_query_1 = 56.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+    "prediction": 0.14464285714285713,
+    "correct": true,
+    "few_shot": [
+        6030,
+        4984,
+        556,
+        2601
+    ]
+}

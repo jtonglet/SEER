@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC4sDdvTnAo53Mm5ULbOd6e1AwQE",
+    "object": "text_completion",
+    "created": 1687430622,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"by comparison against country specific AA corporate indices, adjusted for duration of the obligation\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1225,
+        "completion_tokens": 27,
+        "total_tokens": 1252
+    },
+    "time_taken": 0.7016234397888184,
+    "question": "How is the discount rate for international plans determined?",
+    "gold_answer": [
+        "By coparison against country specific AA corporate indices adjusted for duration of the obligation."
+    ],
+    "code": "#Write a reasoning program \nans = \"by comparison against country specific AA corporate indices, adjusted for duration of the obligation\"",
+    "prediction": "by comparison against country specific AA corporate indices, adjusted for duration of the obligation",
+    "correct": [
+        1.0,
+        1.0
+    ],
+    "few_shot": [
+        941,
+        5566,
+        5567,
+        5694
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "id": "cmpl-7UC4ipAFcTz74KtrTjBiBTrEq9SF0",
+    "object": "text_completion",
+    "created": 1687430612,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"['2019', '2018', '2017']\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1344,
+        "completion_tokens": 21,
+        "total_tokens": 1365
+    },
+    "time_taken": 0.7443943023681641,
+    "question": "In which years was for the net sales by segment and industry end market calculated?",
+    "gold_answer": [
+        "2019",
+        "2018",
+        "2017"
+    ],
+    "code": "#Write a reasoning program \nans = \"['2019', '2018', '2017']\"",
+    "prediction": "['2019', '2018', '2017']",
+    "correct": [
+        1.0,
+        1.0
+    ],
+    "few_shot": [
+        2986,
+        8495,
+        738,
+        5284
+    ]
+}

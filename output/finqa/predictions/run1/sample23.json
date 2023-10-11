@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGRDdjwzACFvFsZuQEb6NIqpdXD",
+    "object": "text_completion",
+    "created": 1687362147,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 230.0\ntable_query_1 = 13208.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1998,
+        "completion_tokens": 56,
+        "total_tokens": 2054
+    },
+    "time_taken": 1.3501181602478027,
+    "question": "of the total contractual obligations and off-balance sheet arrangements contractual obligations what percentage is due to capital lease obligations?",
+    "gold_answer": 0.01741,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 230.0\ntable_query_1 = 13208.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+    "prediction": 0.017413688673531193,
+    "correct": true,
+    "few_shot": [
+        5949,
+        5602,
+        4623,
+        2069
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGY0RQXbXQd2cUyP5VsMLumCuAF",
+    "object": "text_completion",
+    "created": 1687362154,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 201808.0\ntable_query_1 = 139549.0\n#Write a reasoning program \nstep_0 = table_query_1 - table_query_0\nans = step_0 / table_query_0",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1726,
+        "completion_tokens": 72,
+        "total_tokens": 1798
+    },
+    "time_taken": 1.562117576599121,
+    "question": "what is the percentage change in the the gross liability for unrecognized tax benefits during 2008 compare to 2007?",
+    "gold_answer": -0.30851,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 201808.0\ntable_query_1 = 139549.0\n#Write a reasoning program \nstep_0 = table_query_1 - table_query_0\nans = step_0 / table_query_0",
+    "prediction": -0.308506104812495,
+    "correct": true,
+    "few_shot": [
+        722,
+        814,
+        5035,
+        2811
+    ]
+}

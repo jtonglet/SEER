@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFgirh53TMUjuepZlIjag3uYP4V",
+    "object": "text_completion",
+    "created": 1687362100,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 281.09\ntable_query_1 = 286.22\n#Write a reasoning program \nstep_0 = table_query_0 - table_query_1\nans = step_0 < 0",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1643,
+        "completion_tokens": 65,
+        "total_tokens": 1708
+    },
+    "time_taken": 1.2749779224395752,
+    "question": "was the five year total return of the 2019 peer group greater than the 2018 peer group?",
+    "gold_answer": "no",
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 281.09\ntable_query_1 = 286.22\n#Write a reasoning program \nstep_0 = table_query_0 - table_query_1\nans = step_0 < 0",
+    "prediction": true,
+    "correct": false,
+    "few_shot": [
+        4009,
+        3511,
+        659,
+        2240
+    ]
+}

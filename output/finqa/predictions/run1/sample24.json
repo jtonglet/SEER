@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGT3x7IRemPpSE6n29fj8m7RNM2",
+    "object": "text_completion",
+    "created": 1687362149,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 26900.0\ntable_query_1 = 16900.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 57,
+        "total_tokens": 1590
+    },
+    "time_taken": 1.2529301643371582,
+    "question": "what is the ratio of the total flight attendants to total maintenance personnel",
+    "gold_answer": 1.59172,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 26900.0\ntable_query_1 = 16900.0\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+    "prediction": 1.5917159763313609,
+    "correct": true,
+    "few_shot": [
+        3707,
+        3010,
+        1021,
+        2655
+    ]
+}

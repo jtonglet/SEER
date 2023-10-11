@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC4Xkd3BJ6ZyNVXzxRMbNMSxTTGM",
+    "object": "text_completion",
+    "created": 1687430601,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 1452.4\ntable_query_1 = 44.1\n#Write a reasoning program \nans = table_query_0+table_query_1\nscale = \"million\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1433,
+        "completion_tokens": 62,
+        "total_tokens": 1495
+    },
+    "time_taken": 1.0375123023986816,
+    "question": "What is the amount of total sales in 2019?",
+    "gold_answer": [
+        "1496.5"
+    ],
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 1452.4\ntable_query_1 = 44.1\n#Write a reasoning program \nans = table_query_0+table_query_1\nscale = \"million\"",
+    "prediction": 1496.5,
+    "correct": [
+        1.0,
+        1.0
+    ],
+    "few_shot": [
+        4257,
+        8070,
+        7730,
+        3009
+    ]
+}

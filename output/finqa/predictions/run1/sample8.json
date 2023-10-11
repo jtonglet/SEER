@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHdYQRx9Z4sapGZQWCiz7vEMFdg",
+    "object": "text_completion",
+    "created": 1688569237,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 286.61\ntable_query_1 = 198.09\n#Write a reasoning program \nans = table_query_0 > table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1410,
+        "completion_tokens": 55,
+        "total_tokens": 1465
+    },
+    "time_taken": 1.143913745880127,
+    "question": "did altria outperform the s&p 500?",
+    "gold_answer": "yes",
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 286.61\ntable_query_1 = 198.09\n#Write a reasoning program \nans = table_query_0 > table_query_1",
+    "prediction": true,
+    "correct": true,
+    "few_shot": [
+        3967,
+        1068,
+        47,
+        4599
+    ]
+}

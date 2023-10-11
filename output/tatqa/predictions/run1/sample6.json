@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC4gPoHby9cbfLFGhFLctcZ2tsmI",
+    "object": "text_completion",
+    "created": 1687430610,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"consistently with our internal management reporting\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1394,
+        "completion_tokens": 20,
+        "total_tokens": 1414
+    },
+    "time_taken": 0.8328292369842529,
+    "question": "How is industry end market information presented?",
+    "gold_answer": [
+        "consistently with our internal anageent reporting and ay be revised periodically as anageent dees necessary."
+    ],
+    "code": "#Write a reasoning program \nans = \"consistently with our internal management reporting\"",
+    "prediction": "consistently with our internal management reporting",
+    "correct": [
+        0.0,
+        0.6
+    ],
+    "few_shot": [
+        9551,
+        739,
+        8495,
+        3104
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGL1b778MULPAFZosYsG8SUafyA",
+    "object": "text_completion",
+    "created": 1687362141,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 772.0\ntext_variable_1 = 843.0\n#Write a reasoning program \nstep_0 = text_variable_0 - text_variable_1\nans = step_0 / text_variable_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1719,
+        "completion_tokens": 69,
+        "total_tokens": 1788
+    },
+    "time_taken": 1.5664503574371338,
+    "question": "what was the percentage change in the commercial mortgage loans designated for sale at fair value from 2008 to 2009",
+    "gold_answer": -0.08422,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 772.0\ntext_variable_1 = 843.0\n#Write a reasoning program \nstep_0 = text_variable_0 - text_variable_1\nans = step_0 / text_variable_1",
+    "prediction": -0.08422301304863583,
+    "correct": true,
+    "few_shot": [
+        5494,
+        4569,
+        4595,
+        3845
+    ]
+}

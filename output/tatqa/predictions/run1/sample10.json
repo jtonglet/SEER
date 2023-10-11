@@ -1,0 +1,34 @@
+{
+    "id": "cmpl-7UC4nO1lESmzn6WWgtjpIyw3oAg6n",
+    "object": "text_completion",
+    "created": 1687430617,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 774.0\ntable_query_1 = 680.0\n#Write a reasoning program \nans = table_query_0-table_query_1\nscale = \"million\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1597,
+        "completion_tokens": 62,
+        "total_tokens": 1659
+    },
+    "time_taken": 1.332883358001709,
+    "question": "What was the change in the amount for Appliances in 2019 from 2018?",
+    "gold_answer": -94,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 774.0\ntable_query_1 = 680.0\n#Write a reasoning program \nans = table_query_0-table_query_1\nscale = \"million\"",
+    "prediction": 94.0,
+    "correct": [
+        0.0,
+        0.0
+    ],
+    "few_shot": [
+        5750,
+        5564,
+        9411,
+        6393
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGP4wixMqkQD9THXrHN4mjH2FGl",
+    "object": "text_completion",
+    "created": 1687362145,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 101.88\ntable_query_1 = 93.21\n#Write a reasoning program \nstep_0 = table_query_0 - table_query_1\nans = step_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1829,
+        "completion_tokens": 69,
+        "total_tokens": 1898
+    },
+    "time_taken": 1.477027177810669,
+    "question": "for the quarter ended march 312015 what was the percentage change in the share price from the highest to the lowest",
+    "gold_answer": 0.09302,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 101.88\ntable_query_1 = 93.21\n#Write a reasoning program \nstep_0 = table_query_0 - table_query_1\nans = step_0 / table_query_1",
+    "prediction": 0.09301577084003865,
+    "correct": true,
+    "few_shot": [
+        1013,
+        4571,
+        5880,
+        3988
+    ]
+}

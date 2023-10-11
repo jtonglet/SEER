@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFkUvLkyZovUDXeOMCYxwaDfy2M",
+    "object": "text_completion",
+    "created": 1687362104,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = table.loc[\"net change for the year\",:]\n#Write a reasoning program \nans = table_query_0.mean() ",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2087,
+        "completion_tokens": 51,
+        "total_tokens": 2138
+    },
+    "time_taken": 1.0475871562957764,
+    "question": "what was the average net annual change in discounted future net cash flows ( in millions ) for the years 2011 , 2010 , and 2009?",
+    "gold_answer": 3297.66667,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = table.loc[\"net change for the year\",:]\n#Write a reasoning program \nans = table_query_0.mean() ",
+    "prediction": 3297.6666666666665,
+    "correct": true,
+    "few_shot": [
+        2993,
+        2744,
+        5079,
+        4540
+    ]
+}

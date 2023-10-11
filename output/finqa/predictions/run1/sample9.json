@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHfSwmlmxZ4YLSjG0Zc5tQWBPyt",
+    "object": "text_completion",
+    "created": 1688569239,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 1136.0\ntable_query_1 = 1171.0\n#Write a reasoning program \nans = table_query_0 - table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1725,
+        "completion_tokens": 57,
+        "total_tokens": 1782
+    },
+    "time_taken": 1.2977969646453857,
+    "question": "what was the change in unrecognized tax benefits from the end of 2014 to the end of 2015?",
+    "gold_answer": -35.0,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 1136.0\ntable_query_1 = 1171.0\n#Write a reasoning program \nans = table_query_0 - table_query_1",
+    "prediction": -35.0,
+    "correct": true,
+    "few_shot": [
+        3818,
+        4303,
+        1525,
+        2406
+    ]
+}

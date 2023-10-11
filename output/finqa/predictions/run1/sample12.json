@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFf9rOHGmdcRyLvrlrz3FzPu99e",
+    "object": "text_completion",
+    "created": 1687362099,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 137.4\ntable_query_1 = 559.3\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1411,
+        "completion_tokens": 56,
+        "total_tokens": 1467
+    },
+    "time_taken": 1.0391497611999512,
+    "question": "what portion of the total noncancelable future lease commitments are due in fiscal year of 2019?",
+    "gold_answer": 0.24566,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 137.4\ntable_query_1 = 559.3\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+    "prediction": 0.24566422313606295,
+    "correct": true,
+    "few_shot": [
+        203,
+        3432,
+        4237,
+        3489
+    ]
+}

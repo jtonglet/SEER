@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHUpVPPcnz0IpfdVDaCbu1fEVU7",
+    "object": "text_completion",
+    "created": 1688569228,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 121.4\ntable_query_1 = 4187.8\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1135,
+        "completion_tokens": 56,
+        "total_tokens": 1191
+    },
+    "time_taken": 1.163315773010254,
+    "question": "what portion of total purchase price is related to stock awards?",
+    "gold_answer": 0.02899,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 121.4\ntable_query_1 = 4187.8\n#Write a reasoning program \nans = table_query_0 / table_query_1",
+    "prediction": 0.0289889679545346,
+    "correct": true,
+    "few_shot": [
+        1035,
+        209,
+        854,
+        207
+    ]
+}

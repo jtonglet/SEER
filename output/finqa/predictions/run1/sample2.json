@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHTFKm7HgvleIQ1ITeI5wftGnqJ",
+    "object": "text_completion",
+    "created": 1688569227,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 375\ntext_variable_1 = 153.7\ntext_variable_2 = 139.9\n#Write a reasoning program \nstep_0 = text_variable_0 - text_variable_1\nans = step_0 / text_variable_2",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1713,
+        "completion_tokens": 75,
+        "total_tokens": 1788
+    },
+    "time_taken": 1.6326932907104492,
+    "question": "what is the percentage change in cash flow hedges in 2011 compare to the 2010?",
+    "gold_answer": 0.09864,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 375\ntext_variable_1 = 153.7\ntext_variable_2 = 139.9\n#Write a reasoning program \nstep_0 = text_variable_0 - text_variable_1\nans = step_0 / text_variable_2",
+    "prediction": 1.5818441744102931,
+    "correct": false,
+    "few_shot": [
+        406,
+        4114,
+        1785,
+        694
+    ]
+}

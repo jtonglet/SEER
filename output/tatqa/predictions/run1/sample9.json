@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC4lBvXj4Aeh5bxCFIDHUaD33bBp",
+    "object": "text_completion",
+    "created": 1687430615,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 918.0\ntable_query_1 = 914.0\ntable_query_2 = 814.0\n#Write a reasoning program \n#918>914>814\nans = \"2018.0\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1390,
+        "completion_tokens": 72,
+        "total_tokens": 1462
+    },
+    "time_taken": 1.3836429119110107,
+    "question": "In which year was the amount for Sensors the largest?",
+    "gold_answer": [
+        "2018"
+    ],
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 918.0\ntable_query_1 = 914.0\ntable_query_2 = 814.0\n#Write a reasoning program \n#918>914>814\nans = \"2018.0\"",
+    "prediction": "2018.0",
+    "correct": [
+        1.0,
+        1.0
+    ],
+    "few_shot": [
+        308,
+        1402,
+        4463,
+        5455
+    ]
+}

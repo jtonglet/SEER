@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFd5jtg6IRpl8qx2eXCrpByIGFq",
+    "object": "text_completion",
+    "created": 1687362097,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 3644331.0\ntable_query_1 = 817388.0\n#Write a reasoning program \nans = table_query_1 / table_query_0",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1355,
+        "completion_tokens": 59,
+        "total_tokens": 1414
+    },
+    "time_taken": 1.1800355911254883,
+    "question": "what is the debt-to-asset ratio?",
+    "gold_answer": 0.22429,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 3644331.0\ntable_query_1 = 817388.0\n#Write a reasoning program \nans = table_query_1 / table_query_0",
+    "prediction": 0.22429027440152938,
+    "correct": true,
+    "few_shot": [
+        2182,
+        3689,
+        3043,
+        5358
+    ]
+}

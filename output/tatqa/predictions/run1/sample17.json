@@ -1,0 +1,34 @@
+{
+    "id": "cmpl-7UC4zsDRBblTK5HflXkcJuWlNbxWT",
+    "object": "text_completion",
+    "created": 1687430629,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 0.034\ntable_query_1 = 0.037000000000000005\n#Write a reasoning program \nans = (table_query_0 - table_query_1) / table_query_1\nscale = \"percent\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1188,
+        "completion_tokens": 73,
+        "total_tokens": 1261
+    },
+    "time_taken": 1.293095350265503,
+    "question": "What is the year on year percentage change in international expected return on plan assets between 2018 and 2019?",
+    "gold_answer": -8.11,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 0.034\ntable_query_1 = 0.037000000000000005\n#Write a reasoning program \nans = (table_query_0 - table_query_1) / table_query_1\nscale = \"percent\"",
+    "prediction": -0.08108108108108114,
+    "correct": [
+        0.0,
+        0.0
+    ],
+    "few_shot": [
+        4315,
+        941,
+        2289,
+        2510
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFbr3poRgdIjj7yQhfbtycKGhSe",
+    "object": "text_completion",
+    "created": 1687362095,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 4711.0\ntable_query_1 = 4926.0\n#Write a reasoning program \nstep_0 = table_query_0 - table_query_1\nans = step_0 / table_query_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1340,
+        "completion_tokens": 71,
+        "total_tokens": 1411
+    },
+    "time_taken": 1.3555727005004883,
+    "question": "what is the growth rate in the balance of standby letters of credit from 2006 to 2007?",
+    "gold_answer": -0.04365,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 4711.0\ntable_query_1 = 4926.0\n#Write a reasoning program \nstep_0 = table_query_0 - table_query_1\nans = step_0 / table_query_1",
+    "prediction": -0.04364596021112464,
+    "correct": true,
+    "few_shot": [
+        3184,
+        1271,
+        595,
+        3018
+    ]
+}

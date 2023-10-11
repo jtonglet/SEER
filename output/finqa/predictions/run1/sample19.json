@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFrQYNu8eFdQ8lJtKk9yYphjnvA",
+    "object": "text_completion",
+    "created": 1687362111,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 25.0\ntext_variable_1 = 24.0\ntext_variable_2 = 9.7\ntext_variable_3 = 10.2\n#Write a reasoning program \nstep_0 = text_variable_0 + text_variable_1\nstep_1 = text_variable_2 + text_variable_3\nans = step_0 + step_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1562,
+        "completion_tokens": 101,
+        "total_tokens": 1663
+    },
+    "time_taken": 1.7809524536132812,
+    "question": "in 2010 and 2009 , what was the total fair value in billions of assets segregated for the benefit of securities and futures brokerage customers?",
+    "gold_answer": 68.9,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 25.0\ntext_variable_1 = 24.0\ntext_variable_2 = 9.7\ntext_variable_3 = 10.2\n#Write a reasoning program \nstep_0 = text_variable_0 + text_variable_1\nstep_1 = text_variable_2 + text_variable_3\nans = step_0 + step_1",
+    "prediction": 68.9,
+    "correct": true,
+    "few_shot": [
+        4383,
+        2259,
+        2924,
+        3210
+    ]
+}

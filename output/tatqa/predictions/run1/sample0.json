@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC4WXFY7j4UEwKqegZ5e9WGFRE4g",
+    "object": "text_completion",
+    "created": 1687430600,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"allowable incurred costs plus a profit\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1207,
+        "completion_tokens": 19,
+        "total_tokens": 1226
+    },
+    "time_taken": 0.5313541889190674,
+    "question": "What is the company paid on a cost-plus type contract?",
+    "gold_answer": [
+        "our allowable incurred costs plus a profit which can be fixed or variable depending on the contract\u2019s fee arrangeent up to predeterined funding levels deterined by the custoer"
+    ],
+    "code": "#Write a reasoning program \nans = \"allowable incurred costs plus a profit\"",
+    "prediction": "allowable incurred costs plus a profit",
+    "correct": [
+        0.0,
+        0.33
+    ],
+    "few_shot": [
+        7957,
+        3934,
+        175,
+        622
+    ]
+}

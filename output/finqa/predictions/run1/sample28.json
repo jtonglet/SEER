@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGa5FZi86fThE0y1ZXlsigvtdEC",
+    "object": "text_completion",
+    "created": 1687362156,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 0.5\ntext_variable_1 = 0.6\ntext_variable_2 = 0.6\ntext_variable_3 = 0.2\ntext_variable_4 = 0.2\n#Write a reasoning program \nstep_0 = text_variable_0 + text_variable_1\nstep_1 = step_0 + text_variable_2\nstep_2 = step_1 + text_variable_3\nans = step_2 + text_variable_4",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1660,
+        "completion_tokens": 125,
+        "total_tokens": 1785
+    },
+    "time_taken": 2.097221612930298,
+    "question": "what was the total impairment costs recorded from 2003 to 2005 in millions",
+    "gold_answer": 5.8,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 0.5\ntext_variable_1 = 0.6\ntext_variable_2 = 0.6\ntext_variable_3 = 0.2\ntext_variable_4 = 0.2\n#Write a reasoning program \nstep_0 = text_variable_0 + text_variable_1\nstep_1 = step_0 + text_variable_2\nstep_2 = step_1 + text_variable_3\nans = step_2 + text_variable_4",
+    "prediction": 2.1,
+    "correct": false,
+    "few_shot": [
+        5367,
+        5611,
+        2637,
+        2491
+    ]
+}

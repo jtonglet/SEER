@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7YyHNbjac2gxjnivA6s4JDkY4uLQP",
+    "object": "text_completion",
+    "created": 1688569221,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 5735.0\ntable_query_1 = 5829.0\n#Write a reasoning program \nans = table_query_1 - table_query_0",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1471,
+        "completion_tokens": 57,
+        "total_tokens": 1528
+    },
+    "time_taken": 1.2805430889129639,
+    "question": "what is the net change in net revenue during 2015 for entergy corporation?",
+    "gold_answer": 94.0,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 5735.0\ntable_query_1 = 5829.0\n#Write a reasoning program \nans = table_query_1 - table_query_0",
+    "prediction": 94.0,
+    "correct": true,
+    "few_shot": [
+        1913,
+        1998,
+        5449,
+        124
+    ]
+}

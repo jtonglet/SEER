@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuGdnbLWU8iHwMunEVe3H3RKNUsW",
+    "object": "text_completion",
+    "created": 1687362159,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define variables based on available values in the text\ntext_variable_0 = 3081.0\ntext_variable_1 = 2014.0\n#Write a reasoning program \nans = text_variable_0 / text_variable_1",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1706,
+        "completion_tokens": 54,
+        "total_tokens": 1760
+    },
+    "time_taken": 1.2286443710327148,
+    "question": "what is the borrowing under the term loan facility as a percentage of the total contractual maturities of long-term debt obligations due subsequent to december 31 , 2016?",
+    "gold_answer": 1.13599,
+    "code": "#Define variables based on available values in the text\ntext_variable_0 = 3081.0\ntext_variable_1 = 2014.0\n#Write a reasoning program \nans = text_variable_0 / text_variable_1",
+    "prediction": 1.5297914597815292,
+    "correct": false,
+    "few_shot": [
+        3278,
+        1366,
+        412,
+        5041
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "cmpl-7TuFnSiWpp308LfU2VQ4hmDQzFYsA",
+    "object": "text_completion",
+    "created": 1687362107,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Define Pandas queries based on available row and column names\ntable_query_0 = 705.4\ntable_query_1 = 703.1\n#Write a reasoning program \nans = (table_query_0 + table_query_1) / 2",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1546,
+        "completion_tokens": 61,
+        "total_tokens": 1607
+    },
+    "time_taken": 1.094416618347168,
+    "question": "what was the average net revenue between 2016 and 2017 in millions",
+    "gold_answer": 705.25,
+    "code": "#Define Pandas queries based on available row and column names\ntable_query_0 = 705.4\ntable_query_1 = 703.1\n#Write a reasoning program \nans = (table_query_0 + table_query_1) / 2",
+    "prediction": 704.25,
+    "correct": false,
+    "few_shot": [
+        4008,
+        4560,
+        5450,
+        1415
+    ]
+}

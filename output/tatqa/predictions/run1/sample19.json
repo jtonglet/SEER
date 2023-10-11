@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC53fM3zlrn8DwDo1vY8vc7FyE4U",
+    "object": "text_completion",
+    "created": 1687430633,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"['Germany', 'Ghana', 'India', 'Ireland', 'Italy', 'the UK', 'the United States']\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2283,
+        "completion_tokens": 37,
+        "total_tokens": 2320
+    },
+    "time_taken": 1.1861207485198975,
+    "question": "Which countries does the group operate defined benefit schemes in?",
+    "gold_answer": [
+        "Gerany Ghana India Ireland Italy the UK the United States"
+    ],
+    "code": "#Write a reasoning program \nans = \"['Germany', 'Ghana', 'India', 'Ireland', 'Italy', 'the UK', 'the United States']\"",
+    "prediction": "['Germany', 'Ghana', 'India', 'Ireland', 'Italy', 'the UK', 'the United States']",
+    "correct": [
+        1.0,
+        1.0
+    ],
+    "few_shot": [
+        5694,
+        5458,
+        6841,
+        2434
+    ]
+}

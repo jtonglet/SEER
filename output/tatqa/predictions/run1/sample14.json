@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC4uXxkBFTZw2hf21qK4ka9x6Phs",
+    "object": "text_completion",
+    "created": 1687430624,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"on an annual basis\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1146,
+        "completion_tokens": 16,
+        "total_tokens": 1162
+    },
+    "time_taken": 0.6115121841430664,
+    "question": "How often does the company review the actuarial assumptions which the periodic benefit cost and the actuarial present value of projected benefit obligations are based on?",
+    "gold_answer": [
+        "Annual basis"
+    ],
+    "code": "#Write a reasoning program \nans = \"on an annual basis\"",
+    "prediction": "on an annual basis",
+    "correct": [
+        0.0,
+        0.8
+    ],
+    "few_shot": [
+        1621,
+        3694,
+        8563,
+        0
+    ]
+}

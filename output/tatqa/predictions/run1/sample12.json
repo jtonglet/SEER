@@ -1,0 +1,36 @@
+{
+    "id": "cmpl-7UC4rSAcuo50Ils1Ghsd6QUE7FV82",
+    "object": "text_completion",
+    "created": 1687430621,
+    "model": "code-davinci-002",
+    "choices": [
+        {
+            "text": "#Write a reasoning program \nans = \"FTSE pension liability index for AA rated corporate instruments\"",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1406,
+        "completion_tokens": 23,
+        "total_tokens": 1429
+    },
+    "time_taken": 0.7357730865478516,
+    "question": "How is the discount rate for domestic plans determined?",
+    "gold_answer": [
+        "By coparison against the FTSE pension liability index for AA rated corporate instruents"
+    ],
+    "code": "#Write a reasoning program \nans = \"FTSE pension liability index for AA rated corporate instruments\"",
+    "prediction": "FTSE pension liability index for AA rated corporate instruments",
+    "correct": [
+        0.0,
+        0.86
+    ],
+    "few_shot": [
+        5567,
+        2956,
+        5568,
+        2959
+    ]
+}
