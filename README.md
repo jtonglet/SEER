@@ -1,8 +1,8 @@
 # SEER 🔮
 
-This is the code implementation for the paper "SEER : A Knapsack Approach to Exemplar Selection for In-Context HybridQA".
+This is the code implementation for the EMNLP 2023 paper "SEER : A Knapsack Approach to Exemplar Selection for In-Context HybridQA".
 
-SEER is a method based on the Knapsack Program to select exemplars for in-context learning. We evaluate SEER on two HybridQA datasets, FinQA and TAT-QA, with contexts consisting of a structured table and one or more text paragraphs.
+SEER is a method based on the Knapsack Program to select exemplars for In-Context learning. We evaluate SEER on two HybridQA datasets, FinQA and TAT-QA, with contexts consisting of a structured table and one or more text paragraphs.
 
 <p align="center">
   <img width="80%" src="img/model_overview.png" alt="header" />
