@@ -15,6 +15,7 @@ SEER is a method based on the Knapsack Program to select exemplars for in-contex
 $ conda create --name SEER python=3.9
 $ conda activate SEER
 $ pip install -r requirements.txt
+$ python -m spacy download en_core_web_lg
 ```
 
 ### A simple example
