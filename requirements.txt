@@ -1,0 +1,12 @@
+python-constraint
+datasets
+evaluate
+numpy
+openai
+pandas
+pulp
+scipy
+sentence_transformers
+spacy
+torch
+transformers
