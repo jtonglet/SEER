@@ -23,8 +23,19 @@ def get_random_set(instance_idx,valid_idx,num_exemplars=4):
 def get_kate_set(instance_idx,similarity_matrix,valid_train_idx,num_exemplars):
     kate = SEER(k=num_exemplars)  
     #We only use the get KNN method of SEER
-    few_shot_idx = kate.get_KNN(instance_idx,similarity_matrix,num_exemplars,valid_train_idx) 
+    few_shot_idx = kate.get_KNN(instance_idx,similarity_matrix,valid_train_idx) 
     return few_shot_idx
+
+
+def get_diverse_kate_set(instance_idx,similarity_matrix,valid_train_idx,num_exemplars,train_datafarame):
+    exemplars_per_modality = num_exemplars//2
+    kate = SEER(k=exemplars_per_modality)  
+    #We only use the get KNN method of SEER
+    valid_text_idx = [i for i in valid_train_idx if train_dataframe.loc[i,'q_type']==1]
+    valid_table_idx = [i for i in valid_train_idx if train_dataframe.loc[i,'q_type']==0]
+    few_shot_idx = kate.get_KNN(instance_idx,similarity_matrix,valid_text_idx) + kate.get_KNN(instance_idx,similarity_matrix,valid_table_idx)
+    return few_shot_idx
+
 
 def CSP(instance_idx,train_dataframe,test_dataframe,valid_train_idx,num_candidates=20,num_exemplar=4,alpha=0.5,beta=0.25,max_length=4096):
     modality = test_dataframe.loc[instance_idx,'modality']
