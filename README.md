@@ -73,3 +73,12 @@ result = few_shot_prompting(prompt,key='OPENAI_API_KEY')
 save_result_finqa(i,finqa_test,'datasets/finqa/test.json',result,
                 "output/finqa/predictions/run1/",selection,print_eval=True)
 ```
+### Citation
+```
+@article{tonglet2023seer,
+  title={SEER: A Knapsack approach to Exemplar Selection for In-Context HybridQA},
+  author={Tonglet, Jonathan and Reusens, Manon and Borchert, Philipp and Baesens, Bart},
+  journal={arXiv preprint arXiv:2310.06675},
+  year={2023}
+}
+```
