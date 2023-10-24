@@ -37,13 +37,14 @@ finqa_test = load_file('datasets/finqa/test.json')
 finqa_train_df = pd.read_csv('data_cache/finqa/metadata/finqa_train_df.csv')
 finqa_test_df = pd.read_csv('data_cache/finqa/metadata/finqa_test_df.csv')
 text_filter_df = pd.read_csv('data_cache/finqa/text_retriever/retrieved_text_finqa_test.csv')
+#The similarity matrices files need to be unzipped before using them
 finqa_similarity = pd.read_table('data_cache/finqa/similarity_matrices/finqa_test_sim.txt',header=None,sep=' ') 
 #Remove invalid scripts from the train set
 valid_idx_finqa = remove_invalid_scripts_finqa(finqa_train)
 ```
 
 We initialize a SEER object, setting values for the hyperparameters alpha and beta, and deciding on which constraint modules to include.
-This assumes that attributes have alredy been predicted with the constraint modules, and stored in the FinQA test dataframe as 'predicted_modality'.
+This assumes that the modality attribute has already been predicted with the constraint modules, and stored in the FinQA test dataframe as 'predicted_modality'.
 
 ```python
 #Initialize SEER
@@ -72,4 +73,15 @@ prompt = get_test_prompt_finqa(finqa_test[i],finqa_train,selection,text_filter)
 result = few_shot_prompting(prompt,key='OPENAI_API_KEY')
 save_result_finqa(i,finqa_test,'datasets/finqa/test.json',result,
                 "output/finqa/predictions/run1/",selection,print_eval=True)
+```
+
+### Citation
+
+```
+@article{tonglet2023seer,
+  title={SEER: A Knapsack approach to Exemplar Selection for In-Context HybridQA},
+  author={Tonglet, Jonathan and Reusens, Manon and Borchert, Philipp and Baesens, Bart},
+  journal={arXiv preprint arXiv:2310.06675},
+  year={2023}
+}
 ```
