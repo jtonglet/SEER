@@ -1,6 +1,6 @@
 # SEER 🔮
 
-This is the code implementation for the EMNLP 2023 paper "SEER : A Knapsack Approach to Exemplar Selection for In-Context HybridQA".
+This is the code implementation for the EMNLP 2023 paper "SEER : A Knapsack Approach to Exemplar Selection for In-Context HybridQA". It is an experimental scode and is published for the sole purpose of giving additional background details on the publication. This is a cleaned-up and condensed version of what was used to conduct the experiments in the paper (please get in touch if you find errors).
 
 SEER is a method based on the Knapsack Program to select exemplars for In-Context learning. We evaluate SEER on two HybridQA datasets, FinQA and TAT-QA, with contexts consisting of a structured table and one or more text paragraphs.
 
@@ -44,7 +44,7 @@ valid_idx_finqa = remove_invalid_scripts_finqa(finqa_train)
 ```
 
 We initialize a SEER object, setting values for the hyperparameters alpha and beta, and deciding on which constraint modules to include.
-This assumes that the modality attribute has already been predicted with the constraint modules, and stored in the FinQA test dataframe as 'predicted_modality'.
+This assumes that the modality attribute has already been predicted with the constraint modules, and stored in the FinQA test dataframe as 'predicted_modality'. Attributes can be predicted and stored in the metadata dataframes using ICL (*get_attributes_ICL.py*) or a fine-tuned BERT model (*get_attributes_finetuning.py*). 
 
 ```python
 #Initialize SEER
