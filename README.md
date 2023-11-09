@@ -85,3 +85,9 @@ save_result_finqa(i,finqa_test,'datasets/finqa/test.json',result,
   year={2023}
 }
 ```
+
+### Contact
+
+```
+jonathan.tonglet@student.kuleuven.be
+```
