@@ -78,12 +78,20 @@ save_result_finqa(i,finqa_test,'datasets/finqa/test.json',result,
 ### Citation
 
 ```
-@article{tonglet2023seer,
-  title={SEER: A Knapsack approach to Exemplar Selection for In-Context HybridQA},
-  author={Tonglet, Jonathan and Reusens, Manon and Borchert, Philipp and Baesens, Bart},
-  journal={arXiv preprint arXiv:2310.06675},
-  year={2023}
+@inproceedings{tonglet-etal-2023-seer,
+    title = "{SEER} : A Knapsack approach to Exemplar Selection for In-Context {H}ybrid{QA}",
+    author = "Tonglet, Jonathan  and Reusens, Manon  and Borchert, Philipp  and Baesens, Bart",
+    editor = "Bouamor, Houda  and Pino, Juan  and Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.837",
+    doi = "10.18653/v1/2023.emnlp-main.837",
+    pages = "13569--13583"
 }
+
 ```
 
 ### Contact
