@@ -58,6 +58,10 @@ if __name__=='__main__':
     retrieved_text_tatqa_test.to_csv('data_cache/tatqa/text_retriever/retrieved_text_tatqa_test.csv',index=False)
 
     #3. Compute similarity embeddings
+    if not 'similarity_matrices' in 'data_cache/finqa/':
+        os.mkdir('data_cache/finqa/similarity_matrices')
+    if not 'similarity_matrices' in 'data_cache/tatqa/':
+        os.mkdir('data_cache/tatqa/similarity_matrices')  
     #FinQA
     finqa_dev_sim = compute_similarity_matrix(finqa_train_df['question'],finqa_dev_df['question'],
                                           'all-mpnet-base-v2',True,True,
@@ -65,9 +69,10 @@ if __name__=='__main__':
     finqa_test_sim = compute_similarity_matrix(finqa_train_df['question'],finqa_test_df['question'],
                                           'all-mpnet-base-v2',True,True,
                                           'data_cache/finqa/similarity_matrices/finqa_test_sim.txt')
+    #TAT-QA
     tatqa_dev_sim = compute_similarity_matrix(tatqa_train_df['question'],tatqa_dev_df['question'],
                                           'all-mpnet-base-v2',True,True,
-                                          'data_cache/finqa/similarity_matrices/tatqa_dev_sim.txt')
+                                          'data_cache/tatqa/similarity_matrices/tatqa_dev_sim.txt')
     tatqa_test_sim = compute_similarity_matrix(tatqa_train_df['question'],tatqa_test_df['question'],
                                           'all-mpnet-base-v2',True,True,
-                                          'data_cache/finqa/similarity_matrices/tatqa_test_sim.txt')
+                                          'data_cache/tatqa/similarity_matrices/tatqa_test_sim.txt')
