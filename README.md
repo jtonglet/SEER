@@ -18,6 +18,29 @@ $ pip install -r requirements.txt
 $ python -m spacy download en_core_web_lg
 ```
 
+### Quick Start with FinQA
+
+The first step is to obtain all the required metadata by running
+```
+python preprocessing.py
+```
+
+Predict the reasoning attributes (modality for FinQA) either with CODEX
+```
+python get_attributes_ICL.py
+```
+
+OR with a fine-tuned BERT model
+
+```
+python get_attributes_finetuning.py
+```
+
+Finally, select exemplars and predict the answers for each instance in the FinQA test set:
+```
+python run_seer.py
+```
+
 ### A simple example
 
 Here is an illustration of how to obtain predictions for an instance of the FinQA dataset using SEER for exemplar selection.
@@ -37,7 +60,6 @@ finqa_test = load_file('datasets/finqa/test.json')
 finqa_train_df = pd.read_csv('data_cache/finqa/metadata/finqa_train_df.csv')
 finqa_test_df = pd.read_csv('data_cache/finqa/metadata/finqa_test_df.csv')
 text_filter_df = pd.read_csv('data_cache/finqa/text_retriever/retrieved_text_finqa_test.csv')
-#The similarity matrices files need to be unzipped before using them
 finqa_similarity = pd.read_table('data_cache/finqa/similarity_matrices/finqa_test_sim.txt',header=None,sep=' ') 
 #Remove invalid scripts from the train set
 valid_idx_finqa = remove_invalid_scripts_finqa(finqa_train)
